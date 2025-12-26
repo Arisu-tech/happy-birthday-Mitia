@@ -46,6 +46,26 @@
             line-height: 1.6;
         }
 
+        /* 🎵 Style du lecteur audio */
+        .audio-box {
+            text-align: center;
+            margin: 30px 0;
+            padding: 20px;
+            background: #fff0f6;
+            border-radius: 15px;
+        }
+
+        .audio-box p {
+            margin-bottom: 10px;
+            font-weight: bold;
+            color: #c77dff;
+        }
+
+        audio {
+            width: 100%;
+            max-width: 400px;
+        }
+
         .footer {
             text-align: center;
             margin-top: 30px;
@@ -59,13 +79,22 @@
     <div class="container">
         <h1>🎉 Joyeux anniversaire ! 🎂</h1>
 
+        <!-- 🎵 Lecteur audio -->
+        <div class="audio-box">
+            <p>🎶 Clique pour lancer la musique</p>
+            <audio controls>
+                <source src="anniversaire.mp3" type="audio/mpeg">
+                Ton navigateur ne supporte pas l’audio.
+            </audio>
+        </div>
+
         <div class="message-box">
             <h2>💖 Un petit mot pour toi</h2>
             <p>
-                Otanjobi omedetou Mitia !  
-                Apparemment il y a un 2 dans ton âge maintenant.  
-                Je ne suis pas douée pour les discours, mais si j’ai un message à t’adresser, c’est celui-ci.  
-                Merci à Dieu qu’on soit arrivés en ce jour et merci à toi d’avoir parcouru tout ce chemin.  
+                Otanjobi omedetou Mitia !<br>
+                Apparemment il y a un 2 dans ton âge maintenant.<br>
+                Je ne suis pas douée pour les discours, mais si j’ai un message à t’adresser, c’est celui-ci.<br>
+                Merci à Dieu qu’on soit arrivés en ce jour et merci à toi d’avoir parcouru tout ce chemin.<br>
                 Malgré les péripéties que tu as vécues, tu es là aujourd’hui, encore un pas de plus en avant.
             </p>
         </div>
@@ -74,7 +103,7 @@
             <h2>✨ Ce que je te souhaite</h2>
             <p>
                 Et bien tout simplement le meilleur à venir, de la santé et l’accomplissement des objectifs
-                que tu t’es fixés !  
+                que tu t’es fixés !<br>
                 And a LOOOT of joy in your life.
             </p>
         </div>
